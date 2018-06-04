@@ -1,0 +1,53 @@
+
+p{
+text-align: justify;
+font-size: 20px
+
+}
+
+h1, h2 {
+text-align: center;
+color: blue
+}
+
+h1 {
+	font-family: 'Roboto Mono', monospace;
+	font-style: italic;
+	background-color: lightblue;
+
+}
+ 
+@font-face
+
+.teste {
+	text-align: right;
+	text-decoration:
+	text-transform: uppercase;
+}
+
+#cobaia {
+	letter-spacing: 5px;
+}
+body{
+font-family: 'Raleway', sans-serif;
+
+
+
+}
+
+h2 {
+	font-family: 'Roboto Mono', monospace;
+	background-color: lightblue;
+}
+
+ul{
+list-style-type: upper-alpha;
+background-color:lightblue;
+border:3px solid red;
+}
+
+#foto{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+
