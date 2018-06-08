@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>tabela</title>
+	<style type="text/css">
+		table, th, td {
+			border-style: solid;
+			border-width: 1px;
+			border-color: black;
+			border-collapse: collapse;
+			font-size: 20px
+			font-family:'calibri' serif;
+	}
+			table {
+				margin: auto;
+				width: 50%
+			}
+
+			td {
+				width: 10%
+				text-align: center;
+			}
+
+			.título {
+				background-color: rgb(79, 129, 189);
+				color: rgb(255, 255, 255);
+				font-weight: bold;
+				text-align: center;
+			}
+			.linha-impar {
+				background-color: rgb(208, 216, 232);
+			}
+			.linha-par{
+				background-color: rgb(233, 237, 244);
+			}
+	</style>
+</head>
+<body>
+	<table>
+		<tr class="título">
+			<td colspan="2">Voos do aeroporto de Natal</td>
+		</tr>
+		<tr class="linha-impar">
+			<td rowspan="3">Natal - Salvador</td>
+
+			<td>2 vezes ao dia</td>
+		</tr>
+		<tr class="linha-par">
+			<td>Início: 1990</td>
+		</tr>
+		<tr class="linha-impar">
+			<td><img src=https://logodownload.org/wp-content/uploads/2016/11/Latam-logo-2.png width="90px"><img src="http://encontresuaviagem.com.br/images/uploads/2015/11/Gol_logo.png" width="10%"></td>
+		</tr>
+		<tr class="linha-par">
+		<td rowspan="3" id="linha1">Natal - São Paulo</td>
+		<td>5 vezes ao dia</td>
+		<tr class="linha-par">
+			<td>Início: 1981</td>
+		</tr>
+		<tr class="linha-impar">
+			<td><img src=https://logodownload.org/wp-content/uploads/2016/11/Latam-logo-2.png width="90px">
+				<img src="http://encontresuaviagem.com.br/images/uploads/2015/11/Gol_logo.png" width="10%">
+				<img src="https://upload.wikimedia.org/wikipedia/commons/f/f8/Azul_Brazilian_Airlines_logo.png" width="15%"></td>
+		</tr>
+
+		<tr class="linha-par">
+			<td rowspan="3" id="linha1">Natal - Lisboa</td>
+			<td>3 vezes por semana</td>
+		</tr>
+	
+		<tr class="linha-impar">
+			<td>Início: 2003</td>
+		</tr>
+		<tr class="linha-par">
+			<td> <img src="http://airlink.blob.core.windows.net/public/1004/avianca-small.png" width="12%">
+			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/TAP_Portugal_Logo.svg/1280px-TAP_Portugal_Logo.svg.png" width="18%"></td>
+		</tr>
+
+	</table>
+
+</body>
+</html>
